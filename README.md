@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="banner.png" alt="Beshkan Banner" width="100%" />
+
 # Beshkan
 
 ### Fast DNS Switcher for macOS, Linux & Windows
