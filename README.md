@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="banner.png" alt="Beshkan Banner" width="100%" />
-
 # Beshkan
 
 ### Fast DNS Switcher for macOS, Linux & Windows
@@ -13,6 +11,9 @@
 
 A blazing-fast CLI tool to switch between DNS providers with a single command.
 Built for developers, power users, and anyone who needs quick DNS management.
+
+
+<img src="banner.png" alt="Beshkan Banner" width="100%" />
 
 </div>
 
