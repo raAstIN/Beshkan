@@ -39,7 +39,7 @@ if [ "$OS" = "macos" ]; then
     TARGET="beshkan"
 elif [ "$OS" = "linux" ]; then
     SCRIPT="beshkan-linux.sh"
-    TARGET="beshkan-linux"
+    TARGET="beshkan"
 fi
 
 echo -e "${BOLD}Installing:${NC} ${SCRIPT} -> ${INSTALL_DIR}/${TARGET}"

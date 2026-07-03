@@ -23,6 +23,7 @@ Built for developers, power users, and anyone who needs quick DNS management.
 
 - **Cross-Platform** — Works on macOS, Linux, and Windows
 - **11 DNS Providers** — Iranian & international providers pre-configured
+- **Custom DNS Providers** — Add your own title, primary DNS, and secondary DNS
 - **One-Click Switch** — Interactive menu, select and done
 - **Zero Dependencies** — Uses built-in OS tools only
 - **Status Check** — View current DNS settings instantly
@@ -44,6 +45,9 @@ Built for developers, power users, and anyone who needs quick DNS management.
 | 10| Pishgaman  | `5.202.100.100`  | `5.202.100.101`  |
 | 11| Shatel     | `85.15.1.14`     | `85.15.1.15`     |
 
+Custom DNS providers can also be added from the interactive menu by choosing `a`.
+They are saved to `~/.beshkan_dns` and shown at the end of the provider list.
+
 ## Quick Start
 
 ### One-Line Install (macOS / Linux)
@@ -64,7 +68,7 @@ chmod +x beshkan-macos.sh   # or beshkan-linux.sh
 
 # Move to PATH
 sudo cp beshkan-macos.sh /usr/local/bin/beshkan    # macOS
-sudo cp beshkan-linux.sh /usr/local/bin/beshkan-linux  # Linux
+sudo cp beshkan-linux.sh /usr/local/bin/beshkan    # Linux
 ```
 
 ### Windows (PowerShell)
@@ -103,6 +107,7 @@ Choose a DNS Provider:
   ...
   6)  Cloudflare
   ...
+  a)  Add custom DNS
 
 Enter the number of the desired DNS: 6
 
@@ -123,8 +128,7 @@ Beshkan/
 ├── beshkan-macos.sh       # macOS version
 ├── beshkan-linux.sh       # Linux version
 ├── beshkan-windows.ps1    # Windows PowerShell version
-└── .github/
-    └── FUNDING.yml        # Sponsorship config
+└── banner.png             # README banner
 ```
 
 ## How It Works
